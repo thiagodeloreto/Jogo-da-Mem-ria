@@ -10,18 +10,23 @@
     <title>Jogo da Memória</title>
 
     <link rel="stylesheet" href="style.css">
+   
 
 </head>
 
 <body>
 
-    
 
-    <section class="jogo-memoria">
-
-        <div>
-            <h2>Jogo da Memória</h2>
+    <div id="modal-inicio">
+        <div class="modal-content">
+            <h2>Bem-vindo ao jogo da memória!</h2>
+            <p>Clique em cada carta para encontrar o par correspondente.</p>
+            <button id="botao-comecar-jogo">Começar jogo</button>
         </div>
+    </div>
+
+    <section class="jogo-memoria" data-tipo="jogo-memoria">
+        <div><h2>Jogo da Memória</h2></div>
         
         <div class="carta" data-tipo="astronauta">
             <img src="/imagens/astronauta.png" alt="" class="frente">
@@ -83,14 +88,10 @@
             <img src="/imagens/verso.jpg" alt="" class="verso">
         </div>
 
-
     </section>
 
-
-
-
-
     <script src="script.js"></script>
+    
 </body>
 
 </html>
