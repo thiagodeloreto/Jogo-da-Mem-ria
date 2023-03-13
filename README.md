@@ -1,3 +1,3 @@
 # Jogo-da-Memoria
 
-![Captura de Tela do Meu Projeto](C:\Users\thiag\Documents\Javascript\imagens\jogodamemoria.jpg)
+![Captura de Tela do Meu Projeto](imagens\jogodamemoria.jpg)
